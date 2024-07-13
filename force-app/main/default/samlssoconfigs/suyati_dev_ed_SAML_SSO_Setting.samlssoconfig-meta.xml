@@ -6,11 +6,11 @@
     <issuer>https://suyati-dev-ed.my.salesforce.com</issuer>
     <loginUrl>https://suyati-dev-ed.my.salesforce.com/idp/endpoint/HttpPost</loginUrl>
     <name>suyati-dev-ed SAML SSO Setting</name>
-    <oauthTokenEndpoint>https://milestone-main--uat.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <oauthTokenEndpoint>https://milestone-main--dev01.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
     <redirectBinding>false</redirectBinding>
     <requestSigningCertId>0P1Kj000000c3nl</requestSigningCertId>
-    <salesforceLoginUrl>https://milestone-main--uat.sandbox.my.salesforce.com</salesforceLoginUrl>
-    <samlEntityId>https://saml.salesforce.com/00DDh0000009WUGMAI</samlEntityId>
+    <salesforceLoginUrl>https://milestone-main--dev01.sandbox.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://saml.salesforce.com/00DKQ0000008mGZMAI</samlEntityId>
     <samlVersion>SAML2_0</samlVersion>
     <useConfigRequestMethod>false</useConfigRequestMethod>
     <useSameDigestAlgoForSigning>false</useSameDigestAlgoForSigning>
