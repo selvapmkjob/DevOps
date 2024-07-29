@@ -5,6 +5,6 @@ public with sharing class AccountContactsController {
             SELECT Id, Name, Email, Phone
             FROM Contact
             WHERE AccountId = :accountId
-        ]; 
+        ];
     }
 }
