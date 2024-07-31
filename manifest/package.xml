@@ -19,7 +19,7 @@
 	<!--types>
 		<members>apexEmailNotifications</members>
 		<name>ApexEmailNotifications</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>ApexPage</name>
@@ -28,7 +28,7 @@
 		<members>*</members>
 		<name>ApexTestSuite</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>ApexTrigger</name>
 	</types>
@@ -103,12 +103,12 @@
 	<types>
 		<members>*</members>
 		<name>CspTrustedSite</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>CustomApplication</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>CustomApplicationComponent</name>
 	</types>
@@ -800,7 +800,7 @@
 		<members>Lead.SendGmail</members>
 		<members>Lead.YahooMaps</members>
 		<name>WebLink</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>Workflow</name>
