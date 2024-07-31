@@ -383,11 +383,11 @@
 		<members>*</members>
 		<name>InstalledPackage</name>
 	</types-->
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>Layout</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>LightningBolt</name>
 	</types-->
@@ -395,11 +395,11 @@
 		<members>*</members>
 		<name>LightningComponentBundle</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>LightningExperienceTheme</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>LightningMessageChannel</name>
 	</types-->
