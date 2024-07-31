@@ -285,6 +285,7 @@
             </fieldMappingRows>
             <fieldMappingRows>
                 <SObjectType>Lead</SObjectType>
+                <SObjectType>Account</SObjectType>
                 <fieldMappingFields>
                     <dataServiceField>Longitude</dataServiceField>
                     <dataServiceObjectName>DatacloudAddress</dataServiceObjectName>
