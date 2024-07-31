@@ -513,7 +513,7 @@
 		<members>Contact.Standard_Contact_Match_Rule_v1_1</members>
 		<members>Lead.Standard_Lead_Match_Rule_v1_0</members>
 		<name>MatchingRule</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>MatchingRules</name>
@@ -545,7 +545,7 @@
 	<types>
 		<members>*</members>
 		<name>PathAssistant</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>PermissionSet</name>
