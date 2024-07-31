@@ -88,7 +88,7 @@
 		<members>*</members>
 		<name>CompactLayout</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>ConnectedApp</name>
 	</types>
@@ -103,7 +103,7 @@
 	<types>
 		<members>*</members>
 		<name>CspTrustedSite</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>CustomApplication</name>
@@ -291,10 +291,10 @@
 		<members>*</members>
 		<name>DuplicateRule</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>EclairGeoData</name>
-	</types>
+	</types-->
 	<types>
 		<members>EmailToCase</members>
 		<name>EmailServicesFunction</name>
@@ -315,10 +315,10 @@
 		<members>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</members>
 		<name>EmailTemplate</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>EntitlementProcess</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>EntitlementTemplate</name>
@@ -331,10 +331,10 @@
 		<members>*</members>
 		<name>ExternalDataSource</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>ExternalServiceRegistration</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>FieldSet</name>
@@ -379,10 +379,10 @@
 		<members>IframeWhiteListUrlSettings</members>
 		<name>IframeWhiteListUrlSettings</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>InstalledPackage</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>Layout</name>
@@ -550,10 +550,10 @@
 		<members>*</members>
 		<name>PermissionSet</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>PlatformCachePartition</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>PlatformEventChannel</name>
@@ -566,14 +566,14 @@
 		<members>*</members>
 		<name>Portal</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>PostTemplate</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>Profile</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>ProfilePasswordPolicy</name>
@@ -585,7 +585,7 @@
 	<types>
 		<members>*</members>
 		<name>Prompt</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>Queue</name>
@@ -594,7 +594,7 @@
 		<members>*</members>
 		<name>QuickAction</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>RecommendationStrategy</name>
 	</types>
@@ -606,7 +606,7 @@
 		<members>*</members>
 		<name>RedirectWhitelistUrl</name>
 	</types>
-	<!--types>
+	<!types>
 		<members>Best_Practice_Service_Reports/Age_of_Cases_Currently_Open_by_Type</members>
 		<members>Best_Practice_Service_Reports/Aged_Cases_by_Account</members>
 		<members>Best_Practice_Service_Reports/Aged_Cases_by_Agent</members>
@@ -729,7 +729,7 @@
 		<members>unfiled$public/flow_orchestration_work_item_ootb_report_two_four_eight</members>
 		<members>unfiled$public/flow_screen_prebuilt_report</members>
 		<name>Report</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>ReportType</name>
@@ -765,12 +765,12 @@
 	<types>
 		<members>*</members>
 		<name>StandardValueSetTranslation</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>StaticResource</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>SynonymDictionary</name>
 	</types>
@@ -778,7 +778,7 @@
 		<members>*</members>
 		<name>TopicsForObjects</name>
 	</types>
-	<!--types>
+	<types>
 		<members>Account.AltavistaNews</members>
 		<members>Account.GoogleMaps</members>
 		<members>Account.GoogleNews</members>
