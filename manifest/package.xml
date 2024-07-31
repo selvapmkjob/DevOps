@@ -799,8 +799,8 @@
 		<members>Lead.HooversProfile</members>
 		<members>Lead.SendGmail</members>
 		<members>Lead.YahooMaps</members>
-		<name>WebLink</name-->
-	</types>
+		<name>WebLink</name>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>Workflow</name>
