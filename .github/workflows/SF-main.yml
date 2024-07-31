@@ -32,8 +32,7 @@ jobs:
 
       - name: Deploy to SF Org
         run: sfdx force:source:deploy -x manifest/package.xml -u dev
-
-jobs:
+        
   int-deploy:
     runs-on: ubuntu-latest
     if: endsWith(github.ref, 'int')
@@ -62,7 +61,6 @@ jobs:
       - name: Deploy to SF Org
         run: sfdx force:source:deploy -x manifest/package.xml -u int
          
-jobs:
   uat-deploy:
     runs-on: ubuntu-latest
     if: endsWith(github.ref, 'uat')
@@ -91,7 +89,6 @@ jobs:
       - name: Deploy to SF Org
         run: sfdx force:source:deploy -x manifest/package.xml -u uat
                 
-jobs:
   main-deploy:
     runs-on: ubuntu-latest
     if: endsWith(github.ref, 'main')
