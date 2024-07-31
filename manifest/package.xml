@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>ActionLinkGroupTemplate</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>AnimationRule</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>ApexClass</name>
@@ -36,14 +36,14 @@
 		<members>*</members>
 		<name>AppMenu</name>
 	</types-->
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>ApprovalProcess</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>AssignmentRules</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>AuraDefinitionBundle</name>
@@ -51,7 +51,7 @@
 	<!--types>
 		<members>*</members>
 		<name>AuthProvider</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>AutoResponseRules</name>
@@ -60,14 +60,14 @@
 		<members>*</members>
 		<name>BrandingSet</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>CallCenter</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>Certificate</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>ChannelLayout</name>
@@ -76,7 +76,7 @@
 		<members>*</members>
 		<name>ChatterExtension</name>
 	</types>
-	<!--types>
+	<!types>
 		<members>*</members>
 		<name>CleanDataService</name>
 	</types-->
@@ -108,14 +108,14 @@
 		<members>*</members>
 		<name>CustomApplication</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CustomApplicationComponent</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>CustomFeedFilter</name>
-	</types>
+	</types-->
 	<types>
 		<members>Date_Shift_Event__e.Error_List__c</members>
 		<members>Date_Shift_Event__e.Errors__c</members>
@@ -132,10 +132,10 @@
 		<members>FAQ__kav.Question__c</members>
 		<name>CustomField</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CustomHelpMenuSection</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>CustomLabels</name>
