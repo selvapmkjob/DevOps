@@ -48,10 +48,10 @@
 		<members>*</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>AuthProvider</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>AutoResponseRules</name>
@@ -60,14 +60,14 @@
 		<members>*</members>
 		<name>BrandingSet</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CallCenter</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>Certificate</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>ChannelLayout</name>
@@ -190,7 +190,7 @@
 		<members>Date_Shifter_Saved_Settings__c</members>
 		<members>DuplicateRecordItem</members>
 		<members>DuplicateRecordSet</members>
-		<members>EmailMessage</members>
+		<!--members>EmailMessage</members-->
 		<members>EngagementChannelType</members>
 		<members>Entitlement</members>
 		<members>EntitlementContact</members>
@@ -295,10 +295,10 @@
 		<members>*</members>
 		<name>EclairGeoData</name>
 	</types-->
-	<types>
+	<!--types>
 		<members>EmailToCase</members>
 		<name>EmailServicesFunction</name>
-	</types>
+	</types-->
 	<types>
 		<members>unfiled$public/ContactFollowUpSAMPLE</members>
 		<members>unfiled$public/CustomerPortalChangePwdEmail</members>
@@ -428,7 +428,7 @@
 		<members>Case.Trial_Activities</members>
 		<members>CollaborationGroup.All_ChatterGroups</members>
 		<members>CommSubscription.All_CommSubscriptions</members>
-		<members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
+		<!--members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members-->
 		<members>CommSubscriptionConsent.All_CommSubscriptionConsents</members>
 		<members>CommSubscriptionTiming.All_CommSubscriptionTimings</members>
 		<members>Contact.AllContacts</members>
@@ -502,12 +502,12 @@
 		<members>WorkOrder.My_WorkOrders</members>
 		<name>ListView</name>
 	</types>
-	<types>
+	<!--types>
 		<members>cms_document</members>
 		<members>cms_image</members>
 		<members>news</members>
 		<name>ManagedContentType</name>
-	</types>
+	</types-->
 	<types>
 		<members>Account.Standard_Account_Match_Rule_v1_0</members>
 		<members>Contact.Standard_Contact_Match_Rule_v1_1</members>
