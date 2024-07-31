@@ -22,7 +22,7 @@ jobs:
         run: npm install sfdx-cli --global
 
       - name: Authorize SF Org
-        run: sfdx force:auth:jwt:grant --clientid 3MVG9BriLgWNwNOSNV9MyNQCx8DRnxT6XUCSuVXDTuQ3LgDH6Fz_qBftX_fJt.riGZVlxG.MYF_fYIqOVBnMy --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main.dev --instanceurl https://login.salesforce.com/ -a dev
+        run: sfdx force:auth:jwt:grant --clientid 3MVG9BriLgWNwNOSNV9MyNQCx8DRnxT6XUCSuVXDTuQ3LgDH6Fz_qBftX_fJt.riGZVlxG.MYF_fYIqOVBnMy --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main.dev --instanceurl https://test.salesforce.com/ -a dev
 
       - name: Convert to Deploy Source
         run: sfdx force:source:convert -r ./force-app -d ./toDeploy
