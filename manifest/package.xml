@@ -16,10 +16,10 @@
 		<members>*</members>
 		<name>ApexComponent</name>
 	</types>
-	<types>
+	<!--types>
 		<members>apexEmailNotifications</members>
 		<name>ApexEmailNotifications</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>ApexPage</name>
@@ -167,7 +167,7 @@
 		<members>CollaborationGroup</members>
 		<members>CollaborationGroupMember</members>
 		<members>CommSubscription</members>
-		<members>CommSubscriptionChannelType</members>
+		<!--members>CommSubscriptionChannelType</members-->
 		<members>CommSubscriptionConsent</members>
 		<members>CommSubscriptionTiming</members>
 		<members>Contact</members>
@@ -399,10 +399,10 @@
 		<members>*</members>
 		<name>LightningExperienceTheme</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>LightningMessageChannel</name>
-	</types>
+	</types-->
 	<types>
 		<members>Account.AllAccounts</members>
 		<members>Account.MyAccounts</members>
@@ -508,12 +508,12 @@
 		<members>news</members>
 		<name>ManagedContentType</name>
 	</types-->
-	<types>
+	<!--types>
 		<members>Account.Standard_Account_Match_Rule_v1_0</members>
 		<members>Contact.Standard_Contact_Match_Rule_v1_1</members>
 		<members>Lead.Standard_Lead_Match_Rule_v1_0</members>
 		<name>MatchingRule</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>MatchingRules</name>
