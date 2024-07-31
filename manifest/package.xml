@@ -32,10 +32,10 @@
 		<members>*</members>
 		<name>ApexTrigger</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>AppMenu</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>ApprovalProcess</name>
@@ -76,10 +76,10 @@
 		<members>*</members>
 		<name>ChatterExtension</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CleanDataService</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>Community</name>
@@ -140,10 +140,10 @@
 		<members>*</members>
 		<name>CustomLabels</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CustomMetadata</name>
-	</types>
+	</types-->
 	<types>
 		<members>Account</members>
 		<members>AccountBrand</members>
@@ -387,10 +387,10 @@
 		<members>*</members>
 		<name>Layout</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>LightningBolt</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>LightningComponentBundle</name>
@@ -570,10 +570,10 @@
 		<members>*</members>
 		<name>PostTemplate</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>Profile</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>ProfilePasswordPolicy</name>
@@ -606,7 +606,7 @@
 		<members>*</members>
 		<name>RedirectWhitelistUrl</name>
 	</types>
-	<types>
+	<!--types>
 		<members>Best_Practice_Service_Reports/Age_of_Cases_Currently_Open_by_Type</members>
 		<members>Best_Practice_Service_Reports/Aged_Cases_by_Account</members>
 		<members>Best_Practice_Service_Reports/Aged_Cases_by_Agent</members>
@@ -728,7 +728,7 @@
 		<members>unfiled$public/flow_orchestration_step_run_ootb_report_two_four_eight</members>
 		<members>unfiled$public/flow_orchestration_work_item_ootb_report_two_four_eight</members>
 		<members>unfiled$public/flow_screen_prebuilt_report</members>
-		<name>Report</name>
+		<name>Report</name-->
 	</types>
 	<types>
 		<members>*</members>
@@ -778,7 +778,7 @@
 		<members>*</members>
 		<name>TopicsForObjects</name>
 	</types>
-	<types>
+	<!--types>
 		<members>Account.AltavistaNews</members>
 		<members>Account.GoogleMaps</members>
 		<members>Account.GoogleNews</members>
@@ -799,7 +799,7 @@
 		<members>Lead.HooversProfile</members>
 		<members>Lead.SendGmail</members>
 		<members>Lead.YahooMaps</members>
-		<name>WebLink</name>
+		<name>WebLink</name-->
 	</types>
 	<types>
 		<members>*</members>
