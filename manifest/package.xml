@@ -79,7 +79,7 @@
 	<!types>
 		<members>*</members>
 		<name>CleanDataService</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>Community</name>
@@ -88,7 +88,7 @@
 		<members>*</members>
 		<name>CompactLayout</name>
 	</types>
-	<!--types>
+	<!types>
 		<members>*</members>
 		<name>ConnectedApp</name>
 	</types>
@@ -259,7 +259,7 @@
 		<members>WorkOrderLineItem</members>
 		<name>CustomObject</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CustomObjectTranslation</name>
 	</types>
@@ -291,7 +291,7 @@
 		<members>*</members>
 		<name>DuplicateRule</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>EclairGeoData</name>
 	</types-->
@@ -318,7 +318,7 @@
 	<!types>
 		<members>*</members>
 		<name>EntitlementProcess</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>EntitlementTemplate</name>
@@ -331,7 +331,7 @@
 		<members>*</members>
 		<name>ExternalDataSource</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>ExternalServiceRegistration</name>
 	</types-->
@@ -363,7 +363,7 @@
 		<members>*</members>
 		<name>GlobalValueSetTranslation</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>Group</name>
 	</types>
@@ -379,7 +379,7 @@
 		<members>IframeWhiteListUrlSettings</members>
 		<name>IframeWhiteListUrlSettings</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>InstalledPackage</name>
 	</types-->
