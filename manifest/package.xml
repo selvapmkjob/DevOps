@@ -728,8 +728,8 @@
 		<members>unfiled$public/flow_orchestration_step_run_ootb_report_two_four_eight</members>
 		<members>unfiled$public/flow_orchestration_work_item_ootb_report_two_four_eight</members>
 		<members>unfiled$public/flow_screen_prebuilt_report</members>
-		<name>Report</name-->
-	</types>
+		<name>Report</name>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>ReportType</name>
