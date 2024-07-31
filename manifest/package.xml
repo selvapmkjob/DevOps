@@ -54,7 +54,7 @@
 		<members>Date_Shifter_Saved_Settings__c</members>
 		<members>DuplicateRecordItem</members>
 		<members>DuplicateRecordSet</members>
-		<members>EmailMessage</members>
+		<!--members>EmailMessage</members-->
 		<members>EngagementChannelType</members>
 		<members>Entitlement</members>
 		<members>EntitlementContact</members>
