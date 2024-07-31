@@ -28,11 +28,11 @@
 		<members>*</members>
 		<name>ApexTestSuite</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>ApexTrigger</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>AppMenu</name>
 	</types-->
@@ -136,11 +136,11 @@
 		<members>*</members>
 		<name>CustomHelpMenuSection</name>
 	</types-->
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CustomLabels</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>CustomMetadata</name>
 	</types-->
@@ -334,7 +334,7 @@
 	<types>
 		<members>*</members>
 		<name>ExternalServiceRegistration</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>FieldSet</name>
@@ -342,12 +342,12 @@
 	<types>
 		<members>*</members>
 		<name>FlexiPage</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>Flow</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>FlowCategory</name>
 	</types>
@@ -363,7 +363,7 @@
 		<members>*</members>
 		<name>GlobalValueSetTranslation</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>Group</name>
 	</types>
@@ -402,7 +402,7 @@
 	<types>
 		<members>*</members>
 		<name>LightningMessageChannel</name>
-	</types-->
+	</types>
 	<types>
 		<members>Account.AllAccounts</members>
 		<members>Account.MyAccounts</members>
@@ -428,7 +428,7 @@
 		<members>Case.Trial_Activities</members>
 		<members>CollaborationGroup.All_ChatterGroups</members>
 		<members>CommSubscription.All_CommSubscriptions</members>
-		<!--members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members-->
+		<members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
 		<members>CommSubscriptionConsent.All_CommSubscriptionConsents</members>
 		<members>CommSubscriptionTiming.All_CommSubscriptionTimings</members>
 		<members>Contact.AllContacts</members>
@@ -501,7 +501,7 @@
 		<members>WorkOrder.All_WorkOrders</members>
 		<members>WorkOrder.My_WorkOrders</members>
 		<name>ListView</name>
-	</types>
+	</types-->
 	<!--types>
 		<members>cms_document</members>
 		<members>cms_image</members>
@@ -545,15 +545,15 @@
 	<types>
 		<members>*</members>
 		<name>PathAssistant</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>PermissionSet</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>PlatformCachePartition</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>PlatformEventChannel</name>
@@ -566,7 +566,7 @@
 		<members>*</members>
 		<name>Portal</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>PostTemplate</name>
 	</types>
@@ -585,7 +585,7 @@
 	<types>
 		<members>*</members>
 		<name>Prompt</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>Queue</name>
@@ -594,7 +594,7 @@
 		<members>*</members>
 		<name>QuickAction</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>RecommendationStrategy</name>
 	</types>
@@ -765,12 +765,12 @@
 	<types>
 		<members>*</members>
 		<name>StandardValueSetTranslation</name>
-	</types-->
+	</types>
 	<types>
 		<members>*</members>
 		<name>StaticResource</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>SynonymDictionary</name>
 	</types>
