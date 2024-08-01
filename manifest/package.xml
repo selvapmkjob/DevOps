@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>ActionLinkGroupTemplate</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>AnimationRule</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>ApexClass</name>
@@ -16,7 +16,7 @@
 		<members>*</members>
 		<name>ApexComponent</name>
 	</types>
-	<types>
+	<!--types>
 		<members>apexEmailNotifications</members>
 		<name>ApexEmailNotifications</name>
 	</types>
@@ -35,20 +35,20 @@
 	<types>
 		<members>*</members>
 		<name>AppMenu</name>
-	</types>
-	<types>
+	</types-->
+	<!--types>
 		<members>*</members>
 		<name>ApprovalProcess</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>AssignmentRules</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>AuthProvider</name>
 	</types>
@@ -76,7 +76,7 @@
 		<members>*</members>
 		<name>ChatterExtension</name>
 	</types>
-	<types>
+	<!types>
 		<members>*</members>
 		<name>CleanDataService</name>
 	</types>
@@ -88,7 +88,7 @@
 		<members>*</members>
 		<name>CompactLayout</name>
 	</types>
-	<types>
+	<!types>
 		<members>*</members>
 		<name>ConnectedApp</name>
 	</types>
@@ -115,7 +115,7 @@
 	<types>
 		<members>*</members>
 		<name>CustomFeedFilter</name>
-	</types>
+	</types-->
 	<types>
 		<members>Date_Shift_Event__e.Error_List__c</members>
 		<members>Date_Shift_Event__e.Errors__c</members>
@@ -132,18 +132,18 @@
 		<members>FAQ__kav.Question__c</members>
 		<name>CustomField</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CustomHelpMenuSection</name>
-	</types>
-	<types>
+	</types-->
+	<!--types>
 		<members>*</members>
 		<name>CustomLabels</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>CustomMetadata</name>
-	</types>
+	</types-->
 	<types>
 		<members>Account</members>
 		<members>AccountBrand</members>
@@ -167,7 +167,7 @@
 		<members>CollaborationGroup</members>
 		<members>CollaborationGroupMember</members>
 		<members>CommSubscription</members>
-		<members>CommSubscriptionChannelType</members>
+		<!--members>CommSubscriptionChannelType</members-->
 		<members>CommSubscriptionConsent</members>
 		<members>CommSubscriptionTiming</members>
 		<members>Contact</members>
@@ -190,7 +190,7 @@
 		<members>Date_Shifter_Saved_Settings__c</members>
 		<members>DuplicateRecordItem</members>
 		<members>DuplicateRecordSet</members>
-		<members>EmailMessage</members>
+		<!--members>EmailMessage</members-->
 		<members>EngagementChannelType</members>
 		<members>Entitlement</members>
 		<members>EntitlementContact</members>
@@ -259,7 +259,7 @@
 		<members>WorkOrderLineItem</members>
 		<name>CustomObject</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>CustomObjectTranslation</name>
 	</types>
@@ -294,8 +294,8 @@
 	<types>
 		<members>*</members>
 		<name>EclairGeoData</name>
-	</types>
-	<types>
+	</types-->
+	<!--types>
 		<members>EmailToCase</members>
 		<name>EmailServicesFunction</name>
 	</types>
@@ -315,7 +315,7 @@
 		<members>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</members>
 		<name>EmailTemplate</name>
 	</types>
-	<types>
+	<!types>
 		<members>*</members>
 		<name>EntitlementProcess</name>
 	</types>
@@ -342,12 +342,12 @@
 	<types>
 		<members>*</members>
 		<name>FlexiPage</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>Flow</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>FlowCategory</name>
 	</types>
@@ -382,20 +382,20 @@
 	<types>
 		<members>*</members>
 		<name>InstalledPackage</name>
-	</types>
-	<types>
+	</types-->
+	<!--types>
 		<members>*</members>
 		<name>Layout</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>LightningBolt</name>
-	</types>
+	</types-->
 	<types>
 		<members>*</members>
 		<name>LightningComponentBundle</name>
 	</types>
-	<types>
+	<!--types>
 		<members>*</members>
 		<name>LightningExperienceTheme</name>
 	</types>
@@ -501,14 +501,14 @@
 		<members>WorkOrder.All_WorkOrders</members>
 		<members>WorkOrder.My_WorkOrders</members>
 		<name>ListView</name>
-	</types>
-	<types>
+	</types-->
+	<!--types>
 		<members>cms_document</members>
 		<members>cms_image</members>
 		<members>news</members>
 		<name>ManagedContentType</name>
-	</types>
-	<types>
+	</types-->
+	<!--types>
 		<members>Account.Standard_Account_Match_Rule_v1_0</members>
 		<members>Contact.Standard_Contact_Match_Rule_v1_1</members>
 		<members>Lead.Standard_Lead_Match_Rule_v1_0</members>
@@ -606,7 +606,7 @@
 		<members>*</members>
 		<name>RedirectWhitelistUrl</name>
 	</types>
-	<types>
+	<!types>
 		<members>Best_Practice_Service_Reports/Age_of_Cases_Currently_Open_by_Type</members>
 		<members>Best_Practice_Service_Reports/Aged_Cases_by_Account</members>
 		<members>Best_Practice_Service_Reports/Aged_Cases_by_Agent</members>
@@ -804,6 +804,6 @@
 	<types>
 		<members>*</members>
 		<name>Workflow</name>
-	</types>
+	</types-->
 	<version>60.0</version>
 </Package>

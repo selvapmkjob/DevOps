@@ -1,0 +1,118 @@
+name: Build and Deploy Salesforce Elements to Org #Author: nbhaumik/Jul-2024
+on:
+  push:
+    branches: [ dev, int, uat, master ]
+  workflow_dispatch:
+
+jobs:
+  dev-deploy:
+    runs-on: ubuntu-latest
+    if: endsWith(github.ref, 'dev')
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - name: Install SFDX CLI
+        run: npm install sfdx-cli --global
+
+      - name: Authorize SF Org
+        run: sfdx force:auth:jwt:grant --clientid 3MVG9BriLgWNwNOSNV9MyNQCx8DRnxT6XUCSuVXDTuQ3LgDH6Fz_qBftX_fJt.riGZVlxG.MYF_fYIqOVBnMy --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main.dev --instanceurl https://login.salesforce.com/ -a dev
+
+      - name: Convert to Deploy Source
+        run: sfdx force:source:convert -r ./force-app -d ./toDeploy
+
+      - name: Run Validation on Deploy Source
+        run: sfdx force:source:deploy -c -x manifest/package.xml -u dev
+
+      - name: Deploy to SF Org
+        run: sfdx force:source:deploy -x manifest/package.xml -u dev
+        
+  int-deploy:
+    runs-on: ubuntu-latest
+    if: endsWith(github.ref, 'int')
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - name: Install SFDX CLI
+        run: npm install sfdx-cli --global
+
+      - name: Authorize SF Org
+        run: sfdx force:auth:jwt:grant --clientid 3MVG933SC8s3vkAXYEI7A7jtsLcy3V.IlwLhsYBT8HuJkf.8KIkLW7opI26esVmswaOrrq0cbOTRfoJXokF.7 --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main.qa --instanceurl https://login.salesforce.com/ -a int
+
+      - name: Convert to Deploy Source
+        run: sfdx force:source:convert -r ./force-app -d ./toDeploy
+
+      - name: Run Validation on Deploy Source
+        run: sfdx force:source:deploy -c -x manifest/package.xml -u int
+
+      - name: Deploy to SF Org
+        run: sfdx force:source:deploy -x manifest/package.xml -u int
+         
+  uat-deploy:
+    runs-on: ubuntu-latest
+    if: endsWith(github.ref, 'uat')
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - name: Install SFDX CLI
+        run: npm install sfdx-cli --global
+
+      - name: Authorize SF Org
+        run: sfdx force:auth:jwt:grant --clientid 3MVG9BriLgWNwNORkGA7mYj7Wk4JzuQB9x2pCvF1jeZNFkTUdGM9qcfeMwF50Rb5Pr1BsblhCPthig45VEJIe --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main.uat --instanceurl https://login.salesforce.com/ -a uat
+
+      - name: Convert to Deploy Source
+        run: sfdx force:source:convert -r ./force-app -d ./toDeploy
+
+      - name: Run Validation on Deploy Source
+        run: sfdx force:source:deploy -c -x manifest/package.xml -u uat
+
+      - name: Deploy to SF Org
+        run: sfdx force:source:deploy -x manifest/package.xml -u uat
+                
+  main-deploy:
+    runs-on: ubuntu-latest
+    if: endsWith(github.ref, 'main')
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - name: Install SFDX CLI
+        run: npm install sfdx-cli --global
+
+      - name: Authorize SF Org
+        run: sfdx force:auth:jwt:grant --clientid 3MVG9kb26yEQGZW38kQM7Uqa0.d9kOjss8Uob9uq0jqPXOm5JDI._PKu3z07bashOOLMRwGDlVmJZqxRRj5Lv --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main --instanceurl https://login.salesforce.com/ -a main
+
+      - name: Convert to Deploy Source
+        run: sfdx force:source:convert -r ./force-app -d ./toDeploy
+
+      - name: Run Validation on Deploy Source
+        run: sfdx force:source:deploy -c -x manifest/package.xml -u main
+
+      - name: Deploy to SF Org
+        run: sfdx force:source:deploy -x manifest/package.xml -u main
