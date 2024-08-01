@@ -1,7 +1,7 @@
 name: Build and Deploy Salesforce Elements to Org #Author: nbhaumik/Jul-2024
 on:
   push:
-    branches: [ dev, int, uat, master ]
+    branches: [ dev, int, uat, main ]
   workflow_dispatch:
 
 jobs:
