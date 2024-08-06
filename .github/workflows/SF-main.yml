@@ -79,7 +79,7 @@ jobs:
         run: npm install sfdx-cli --global
 
       - name: Authorize SF Org
-        run: sfdx force:auth:jwt:grant --clientid ${{secrect.Client_Seceret_Uat}} --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main.uat --instanceurl ${{vars.Login_URL}}  -a uat
+        run: sfdx force:auth:jwt:grant --clientid ${{secrets.Client_Seceret_Uat}} --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main.uat --instanceurl ${{vars.Login_URL}}  -a uat
 
       - name: Convert to Deploy Source
         run: sfdx force:source:convert -r ./force-app -d ./toDeploy
@@ -107,7 +107,7 @@ jobs:
         run: npm install sfdx-cli --global
 
       - name: Authorize SF Org
-        run: sfdx force:auth:jwt:grant --clientid ${{srectes.Client_Seceret_Main}} --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main --instanceurl ${{vars.Login_URL}} -a main
+        run: sfdx force:auth:jwt:grant --clientid ${{secrets.Client_Seceret_Main}} --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main --instanceurl ${{vars.Login_URL}} -a main
 
       - name: Convert to Deploy Source
         run: sfdx force:source:convert -r ./force-app -d ./toDeploy
