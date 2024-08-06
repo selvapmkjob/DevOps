@@ -23,7 +23,7 @@ jobs:
 
       - name: Authorize SF Org
         run: sfdx force:auth:jwt:grant --clientid 3MVG9BriLgWNwNOSNV9MyNQCx8DRnxT6XUCSuVXDTuQ3LgDH6Fz_qBftX_fJt.riGZVlxG.MYF_fYIqOVBnMy --jwtkeyfile ./buildfiles/server.key --username selva.kumar@milestone.tech.main.dev --instanceurl ${{vars.Login_URL}} -a dev
-             echo ${{vars.Login_URL}}
+             |echo ${{vars.Login_URL}}
 
       - name: Convert to Deploy Source
         run: sfdx force:source:convert -r ./force-app -d ./toDeploy
